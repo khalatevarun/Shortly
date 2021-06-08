@@ -19,7 +19,7 @@ const Hero = (props) => {
         <RoundButton theme={props.theme}>Get Started</RoundButton>
       </Div1>
       <Div2 theme={props.theme}>
-        <img src={working} alt="working" />
+        <img src={working} alt="working" width="100%" />
       </Div2>
     </HeroContainer>
   );

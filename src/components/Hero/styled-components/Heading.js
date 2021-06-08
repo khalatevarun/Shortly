@@ -6,6 +6,7 @@ export const Heading = styled.div`
   line-height: 1.25;
   color: ${(props) => props.theme.VeryDarkViolet};
   @media (max-width: ${(props) => props.theme.mobile_breakpoint}) {
-    font-size: 3em;
+    font-size: 2em;
+    text-align: center;
   }
 `;

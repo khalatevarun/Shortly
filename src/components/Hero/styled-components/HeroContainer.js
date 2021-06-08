@@ -8,8 +8,8 @@ export const HeroContainer = styled.div`
   width: 100vw;
   @media (max-width: ${(props) => props.theme.mobile_breakpoint}) {
     flex-direction: column-reverse;
-
     align-items: center;
     height: max-content;
+    margin: 0px;
   }
 `;
