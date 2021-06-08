@@ -10,15 +10,15 @@ import { withTheme } from 'styled-components';
 const Hero = (props) => {
   return (
     <HeroContainer>
-      <Div1>
-        <Heading>More than just shorten links</Heading>
+      <Div1 theme={props.theme}>
+        <Heading theme={props.theme}>More than just shorten links</Heading>
         <Sub theme={props.theme}>
           Build you brand's recognition and get detailed insights on how your
           link are performing.
         </Sub>
         <RoundButton theme={props.theme}>Get Started</RoundButton>
       </Div1>
-      <Div2>
+      <Div2 theme={props.theme}>
         <img src={working} alt="working" />
       </Div2>
     </HeroContainer>
