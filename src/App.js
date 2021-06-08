@@ -7,8 +7,8 @@ import * as theme from './global-components/theme';
 const App = () => {
   return (
     <ThemeProvider theme={theme}>
-      <Hero theme={theme} />
-      <MainInfo theme={theme} />
+      <Hero />
+      <MainInfo />
     </ThemeProvider>
   );
 };
