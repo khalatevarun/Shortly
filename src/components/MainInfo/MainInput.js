@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import { withTheme } from 'styled-components';
+import { InputContainer } from './helper-components/InputContainer';
+import { LinkInput } from './helper-components/LinkInput';
 import MainInfo from './MainInfo';
 
 const MainInput = () => {
@@ -14,13 +16,9 @@ const MainInput = () => {
   };
 
   return (
-    // <InputContainer>
-
-    // <InputLink>
-    // </InputLink>
-    // <SquareButton>Shorten it!</SqaureButton>
-    // </InputContainer>
-    <div>Hello World</div>
+    <InputContainer>
+      <LinkInput></LinkInput>
+    </InputContainer>
   );
 };
 
