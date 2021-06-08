@@ -13,4 +13,10 @@ export const InputContainer = styled.div`
   justify-content: center;
   display: flex;
   padding: 0px 40px;
+  @media (max-width: ${(props) => props.theme.mobile_breakpoint}) {
+    margin: -100px 0px 15px 0px;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0px 20px;
+  }
 `;

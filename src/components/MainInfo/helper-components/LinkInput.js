@@ -13,4 +13,9 @@ export const LinkInput = styled.input`
   &::placeholder {
     color: ${(props) => props.theme.Grayish};
   }
+  @media (max-width: ${(props) => props.theme.mobile_breakpoint}) {
+    margin-right: 0px;
+    width: auto;
+    margin-bottom: 30px;
+  }
 `;
