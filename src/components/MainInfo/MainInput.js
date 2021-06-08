@@ -1,10 +1,9 @@
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 import { withTheme } from 'styled-components';
-import { SqaureButton } from '../../global-components/SquareButton';
+import { SubmitButton } from './helper-components/SubmitButton';
 import { InputContainer } from './helper-components/InputContainer';
 import { LinkInput } from './helper-components/LinkInput';
-import MainInfo from './MainInfo';
 
 const MainInput = ({ displayResults, setDisplayResults }) => {
   const [inputLink, setInputLink] = useState();
@@ -40,7 +39,7 @@ const MainInput = ({ displayResults, setDisplayResults }) => {
         value={inputLink}
         onChange={handleInputLinkChange}
       />
-      <SqaureButton onClick={submitLink}>Shorten it!</SqaureButton>
+      <SubmitButton onClick={submitLink}>Shorten it!</SubmitButton>
     </InputContainer>
   );
 };

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const SqaureButton = styled.button`
+export const SubmitButton = styled.button`
   background-color: ${(props) => props.theme.Cyan};
   border-radius: 4px;
   font-size: 0.75em;
