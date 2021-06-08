@@ -1,10 +1,10 @@
-import { HeroContainer } from './styled-components/HeroContainer';
+import { HeroContainer } from './helper-components/HeroContainer';
 import { RoundButton } from '../../global-components/RoundButton';
-import { Heading } from './styled-components/Heading';
+import { Heading } from './helper-components/Heading';
 import working from '../../images/working.svg';
-import { Div1 } from './styled-components/Div1';
-import { Sub } from './styled-components/Sub';
-import { Div2 } from './styled-components/Div2';
+import { Div1 } from './helper-components/Div1';
+import { Sub } from './helper-components/Sub';
+import { Div2 } from './helper-components/Div2';
 import { withTheme } from 'styled-components';
 
 const Hero = (props) => {
