@@ -8,4 +8,5 @@ export const InputContainer = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 16px;
+  margin: -90px 30px 90px 30px;
 `;
