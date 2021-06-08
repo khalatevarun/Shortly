@@ -5,3 +5,5 @@ export const Gray = '#bfbfbf';
 export const Grayish = '#bfbfbf';
 export const VeryDarkBlue = '#35323e';
 export const VeryDarkViolet = '#232127';
+
+export const mobile_breakpoint = '376px';
