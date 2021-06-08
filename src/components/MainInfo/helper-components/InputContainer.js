@@ -8,7 +8,7 @@ export const InputContainer = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 16px;
-  margin: -100px 90px 90px 90px;
+  margin: -100px 90px 15px 90px;
   align-items: center;
   justify-content: center;
   display: flex;
