@@ -5,4 +5,8 @@ export const NavLinks = styled.div`
   display: flex;
   flex-direction: row;
   flex: 1.5;
+
+  @media (max-width: ${(props) => props.theme.mobile_breakpoint}) {
+    display: none;
+  }
 `;
