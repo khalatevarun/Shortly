@@ -3,6 +3,7 @@ import { withTheme } from 'styled-components';
 import { MainInfoContainer } from './helper-components/MainInfoContainer';
 import MainInput from './MainInput';
 import Result from './Result';
+import Statistics from './Statistics';
 
 const MainInfo = (props) => {
   const [displayResults, setDisplayResults] = useState([]);
@@ -14,6 +15,7 @@ const MainInfo = (props) => {
         setDisplayResults={setDisplayResults}
       />
       <Result displayResults={displayResults} />
+      <Statistics />
     </MainInfoContainer>
   );
 };
