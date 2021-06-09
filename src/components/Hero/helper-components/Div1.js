@@ -9,6 +9,6 @@ export const Div1 = styled.div`
 
   @media (max-width: ${(props) => props.theme.mobile_breakpoint}) {
     align-items: center;
-    margin: 25px;
+    margin: 25px 25px 120px 25px;
   }
 `;
