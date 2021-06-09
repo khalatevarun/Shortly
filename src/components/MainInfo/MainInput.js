@@ -16,19 +16,24 @@ const MainInput = ({ displayResults, setDisplayResults }) => {
     console.log('Cliked');
     console.log(inputLink);
     // geet request to display heheheh
+    if (inputLink) {
+      setInputError(false);
+      const { data } = await axios.get(
+        `https://api.shrtco.de/v2/shorten?url=${inputLink}`,
+      );
 
-    const { data } = await axios.get(
-      `https://api.shrtco.de/v2/shorten?url=${inputLink}`,
-    );
-
-    setDisplayResults([
-      {
-        orgLink: data.result.original_link,
-        shortLink: data.result.short_link,
-        status: 'Copy',
-      },
-      ...displayResults,
-    ]);
+      setDisplayResults([
+        {
+          orgLink: data.result.original_link,
+          shortLink: data.result.short_link,
+          status: 'Copy',
+        },
+        ...displayResults,
+      ]);
+    } else {
+      console.log('Error');
+      setInputError(true);
+    }
   };
 
   return (
