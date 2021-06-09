@@ -32,7 +32,7 @@ const Navbar = () => {
         <p>Features</p>
         <p>Pricing</p>
         <p>Resources</p>
-        <hr />
+        <hr width="100%" />
         <p>Login</p>
         <RoundButton>Sign Up</RoundButton>
       </NavMenu>
