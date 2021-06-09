@@ -7,6 +7,7 @@ import { NavLinks } from './helper-components/NavLinks';
 import { NavName } from './helper-components/NavName';
 import { NavMenu } from './NavMenu';
 import menu from '../../images/menu.png';
+import { MenuButton } from './helper-components/MenuButton';
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -35,7 +36,7 @@ const Navbar = () => {
         <p>Login</p>
         <RoundButton>Sign Up</RoundButton>
       </NavMenu>
-      <img src={menu} onClick={handleClick} alt="menu" width="24px" />
+      <MenuButton src={menu} onClick={handleClick} />
     </NavContainer>
   );
 };
