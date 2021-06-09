@@ -5,7 +5,7 @@ export const Footer1Container = styled.div`
   background-color: ${(props) => props.theme.DarkViolet};
   display: flex;
   flex-direction: column;
-  padding: 30px;
+  padding: 60px;
   justify-content: center;
   align-items: center;
   background-repeat: no-repeat;
