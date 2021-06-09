@@ -8,6 +8,7 @@ export const Box = styled.div`
   display: flex;
   flex-direction: column;
   font-weight: 700;
+  z-index: 100;
   @media (max-width: ${(props) => props.theme.mobile_breakpoint}) {
     align-items: center;
     text-align: center;
