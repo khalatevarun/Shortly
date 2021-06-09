@@ -9,6 +9,7 @@ import { Image } from './helper-components/helper-statistics/Image';
 import { HeadDiv } from './helper-components/helper-statistics/HeadDiv';
 import { ParaDiv } from './helper-components/helper-statistics/ParaDiv';
 import { SubTitle } from './helper-components/helper-statistics/SubTitle';
+import { CyanHorizontal } from './helper-components/helper-statistics/CyanHorizontal';
 
 const Statistics = () => {
   return (
@@ -44,6 +45,7 @@ const Statistics = () => {
           </ParaDiv>
         </Box>
       </Chain>
+      <CyanHorizontal />
       {/* <Summary>
         Track how your links are performing across the web with our advanced
         statistics dashboard.
