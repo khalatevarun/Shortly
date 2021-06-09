@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { withTheme } from 'styled-components';
 import { MainInfoContainer } from './helper-components/MainInfoContainer';
 import MainInput from './MainInput';
-import Result from './Result';
+import SingleResult from './SingleResult';
 import Statistics from './Statistics';
 
 const MainInfo = (props) => {
@@ -14,7 +14,8 @@ const MainInfo = (props) => {
         displayResults={displayResults}
         setDisplayResults={setDisplayResults}
       />
-      <Result displayResults={displayResults} />
+      {displayResults &&
+        displayResults.map((result) => <SingleResult result={result} />)}
       <Statistics />
     </MainInfoContainer>
   );

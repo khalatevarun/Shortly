@@ -10,5 +10,6 @@ export const Box = styled.div`
   font-weight: 700;
   @media (max-width: ${(props) => props.theme.mobile_breakpoint}) {
     align-items: center;
+    text-align: center;
   }
 `;

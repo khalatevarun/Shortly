@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 
-export const Part2 = styled.div`
+export const NavContainer = styled.div`
   display: flex;
+  flex-direction: row;
+  margin: 30px 160px;
+
   align-items: center;
   @media (max-width: ${(props) => props.theme.mobile_breakpoint}) {
-    flex-direction: column;
-    align-self: flex-start;
-    align-items: stretch;
-    margin: 0px 10px;
+    margin: 30px;
+    justify-content: space-between;
   }
 `;
