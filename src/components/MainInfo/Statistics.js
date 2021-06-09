@@ -8,11 +8,16 @@ import fc from '../../images/fc.svg';
 import { Image } from './helper-components/helper-statistics/Image';
 import { HeadDiv } from './helper-components/helper-statistics/HeadDiv';
 import { ParaDiv } from './helper-components/helper-statistics/ParaDiv';
+import { SubTitle } from './helper-components/helper-statistics/SubTitle';
 
 const Statistics = () => {
   return (
     <StatisticsContainer>
       <Title>Advanced Statistics</Title>
+      <SubTitle>
+        Track how your links are performing across the web with our advanced
+        statistics dashboard.
+      </SubTitle>
       <Chain>
         <Box>
           <Image image={br}></Image>

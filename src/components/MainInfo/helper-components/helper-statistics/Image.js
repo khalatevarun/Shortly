@@ -9,6 +9,8 @@ export const Image = styled.div`
   border-radius: 100px;
   margin: -30px 0px 0px 15px;
   background-position: center;
-
   background-color: ${(props) => props.theme.DarkViolet};
+  @media (max-width: ${(props) => props.theme.mobile_breakpoint}) {
+    margin: -30px 0px 0px 0px;
+  }
 `;

@@ -9,4 +9,7 @@ export const Box = styled.div`
   flex-direction: column;
   font-family: 'Open Sans', sans-serif;
   font-weight: 700;
+  @media (max-width: ${(props) => props.theme.mobile_breakpoint}) {
+    align-items: center;
+  }
 `;
