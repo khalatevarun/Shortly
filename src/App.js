@@ -1,5 +1,6 @@
 import { ThemeProvider, withTheme } from 'styled-components';
 import { AppContainer } from './AppContainer';
+import Footer1 from './components/Footer1/Footer1';
 import Hero from './components/Hero/Hero';
 import MainInfo from './components/MainInfo/MainInfo';
 
@@ -11,6 +12,7 @@ const App = () => {
       <AppContainer>
         <Hero />
         <MainInfo />
+        <Footer1 />
       </AppContainer>
     </ThemeProvider>
   );
