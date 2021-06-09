@@ -20,6 +20,7 @@ const MainInput = ({ displayResults, setDisplayResults }) => {
     console.log(inputLink);
     // geet request to display heheheh
     if (inputLink) {
+      setShowError(false);
       setInputError(false);
       const { data } = await axios.get(
         `https://api.shrtco.de/v2/shorten?url=${inputLink}`,
