@@ -10,4 +10,10 @@ export const ResultContainer = styled.div`
   padding: 16px;
   font-size: 0.85em;
   color: ${(props) => props.theme.VeryDarkViolet};
+  @media (max-width: ${(props) => props.theme.mobile_breakpoint}) {
+    flex-direction: column;
+    margin: 0px;
+    padding: 8px;
+    font-size: 0.85em;
+  }
 `;
