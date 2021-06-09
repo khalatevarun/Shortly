@@ -5,4 +5,7 @@ export const Name = styled.div`
   font-size: 2em;
   font-weight: 700;
   flex: 0.5;
+  @media (max-width: ${(props) => props.theme.mobile_breakpoint}) {
+    margin-bottom: 30px;
+  }
 `;

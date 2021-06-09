@@ -11,6 +11,10 @@ export const Footer2Container = styled.div`
   align-items: flex-start;
 
   @media (max-width: ${(props) => props.theme.mobile_breakpoint}) {
-    padding: 30px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    text-align: center;
   }
 `;
