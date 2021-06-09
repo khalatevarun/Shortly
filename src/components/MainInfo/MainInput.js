@@ -4,6 +4,8 @@ import { withTheme } from 'styled-components';
 import { SubmitButton } from './helper-components/SubmitButton';
 import { InputContainer } from './helper-components/InputContainer';
 import { LinkInput } from './helper-components/LinkInput';
+import { InputDiv } from './helper-components/InputDiv';
+import { ErrorDiv } from './helper-components/ErrorDiv';
 
 const MainInput = ({ displayResults, setDisplayResults }) => {
   const [inputLink, setInputLink] = useState();
@@ -11,6 +13,7 @@ const MainInput = ({ displayResults, setDisplayResults }) => {
   const handleInputLinkChange = (event) => {
     setInputLink(event.target.value);
   };
+  const [showError, setShowError] = useState(false);
 
   const submitLink = async () => {
     console.log('Cliked');
@@ -33,17 +36,23 @@ const MainInput = ({ displayResults, setDisplayResults }) => {
     } else {
       console.log('Error');
       setInputError(true);
+      setShowError(true);
     }
   };
 
   return (
     <InputContainer>
-      <LinkInput
-        placeholder="Shorten a link here..."
-        validationFailed={inputError}
-        value={inputLink}
-        onChange={handleInputLinkChange}
-      />
+      <InputDiv>
+        <LinkInput
+          placeholder="Shorten a link here..."
+          validationFailed={inputError}
+          value={inputLink}
+          onChange={handleInputLinkChange}
+        />
+        <ErrorDiv showError={showError}>
+          <em>Please add a link</em>
+        </ErrorDiv>
+      </InputDiv>
       <SubmitButton onClick={submitLink}>Shorten it!</SubmitButton>
     </InputContainer>
   );
