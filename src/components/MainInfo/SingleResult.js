@@ -10,8 +10,11 @@ import { SqaureButtonCopy } from './helper-components/SqaureButtonCopy';
 const SingleResult = ({ result }) => {
   const [copy, setCopy] = useState(false);
   const [status, setStatus] = useState(result.status);
+  const [copyData, setCopyData] = useState(result.shortLink);
 
   const handleClick = () => {
+    navigator.clipboard.writeText(copyData);
+
     setCopy(true);
     setStatus('Copied');
   };
