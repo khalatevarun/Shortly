@@ -30,13 +30,13 @@ Shortly is a fully responsive website where shorten any link.
     Styled Components
   </li>
   <li>
-    ![Shrtcode API](https://shrtco.de/docs/)
+    [Shrtcode API](https://shrtco.de/docs/)
   </li>
   </ul>
   
 <h2>  Screenshots </h2>
 
-Following is a sneak peek of how the interface looks. To use the website live, head on over to the [link](https://wordshunt.netlify.app/)
+Following is a sneak peek of how the interface looks. To use the website live, head on over to the [link](https://shortlinkit.netlify.app/)
 
 | Light Mode                               | Dark Mode                             |
 | ------------------------------------ | ------------------------------------ |
