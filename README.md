@@ -1,6 +1,6 @@
 <p align="center">
   <a>
-    <img alt="Logo" src="" />
+    <img alt="Logo" src="https://github.com/khalatevarun/Shortly/blob/main/public/favicon.ico" />
   </a>
 </p>
 <h1 align="center">
