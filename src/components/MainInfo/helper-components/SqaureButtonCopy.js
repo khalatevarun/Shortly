@@ -14,4 +14,7 @@ export const SqaureButtonCopy = styled.button`
   :hover {
     background-color: ${(props) => props.theme.LightCyan};
   }
+  @media (max-width: ${(props) => props.theme.mobile_breakpoint}) {
+    width: 93%;
+  }
 `;

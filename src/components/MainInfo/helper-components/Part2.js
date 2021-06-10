@@ -8,5 +8,6 @@ export const Part2 = styled.div`
     align-self: flex-start;
     align-items: stretch;
     margin: 0px 10px;
+    width: 100%;
   }
 `;
