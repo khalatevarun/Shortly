@@ -45,6 +45,12 @@ Following is a sneak peek of how the interface looks. To use the website live, h
 |  Hero Section  |              
 | ------------------------------------ | 
 | ![](https://github.com/khalatevarun/Shortly/blob/main/screenshots/Hero.jpg) | 
+|  Statistics Section  |              
+| ------------------------------------ | 
+| ![](https://github.com/khalatevarun/Shortly/blob/main/screenshots/Statistics.jpg) | 
+|  Footer Section  |              
+| ------------------------------------ | 
+| ![](https://github.com/khalatevarun/Shortly/blob/main/screenshots/Footer.jpg) | 
 
 
 
