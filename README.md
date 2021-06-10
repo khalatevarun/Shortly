@@ -43,13 +43,12 @@ Shortly is a fully responsive website where shorten any link.
 Following is a sneak peek of how the interface looks. To use the website live, head on over to the [link](https://shortlinkit.netlify.app/)
 
 |  Hero Section  |              
-| ------------------------------------ | 
 | ![](https://github.com/khalatevarun/Shortly/blob/main/screenshots/Hero.jpg) | 
+
 |  Statistics Section  |              
-| ------------------------------------ | 
 | ![](https://github.com/khalatevarun/Shortly/blob/main/screenshots/Statistics.jpg) | 
+
 |  Footer Section  |              
-| ------------------------------------ | 
 | ![](https://github.com/khalatevarun/Shortly/blob/main/screenshots/Footer.jpg) | 
 
 
