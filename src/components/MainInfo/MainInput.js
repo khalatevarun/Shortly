@@ -7,7 +7,7 @@ import { LinkInput } from './helper-components/LinkInput';
 import { InputDiv } from './helper-components/InputDiv';
 import { ErrorDiv } from './helper-components/ErrorDiv';
 
-const MainInput = ({ displayResults, setDisplayResults }) => {
+const MainInput = ({ displayResults, setDisplayResults, setShow }) => {
   const [inputLink, setInputLink] = useState();
   const [inputError, setInputError] = useState(false);
   const handleInputLinkChange = (event) => {
@@ -20,6 +20,7 @@ const MainInput = ({ displayResults, setDisplayResults }) => {
     console.log(inputLink);
     // geet request to display heheheh
     if (inputLink) {
+      setShow(true);
       setShowError(false);
       setInputError(false);
       const { data } = await axios.get(
@@ -34,6 +35,7 @@ const MainInput = ({ displayResults, setDisplayResults }) => {
         },
         ...displayResults,
       ]);
+      setShow(false);
     } else {
       console.log('Error');
       setInputError(true);

@@ -15,5 +15,6 @@ export const ResultContainer = styled.div`
     margin: 0px;
     padding: 8px;
     font-size: 0.85em;
+    margin-top: 30px;
   }
 `;
