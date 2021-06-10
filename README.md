@@ -30,7 +30,7 @@ Shortly is a fully responsive website where shorten any link.
     Styled Components
   </li>
   <li>
-    Shrtcode API![](https://shrtco.de/docs/)
+    ![Shrtcode API](https://shrtco.de/docs/)
   </li>
   </ul>
   
