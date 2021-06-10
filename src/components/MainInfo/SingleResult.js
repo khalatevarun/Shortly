@@ -14,7 +14,6 @@ const SingleResult = ({ result }) => {
 
   const handleClick = () => {
     navigator.clipboard.writeText(copyData);
-
     setCopy(true);
     setStatus('Copied');
   };

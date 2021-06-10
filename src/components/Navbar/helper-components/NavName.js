@@ -6,6 +6,5 @@ export const NavName = styled.div`
   flex: 0.3;
   font-weight: 700;
   @media (max-width: ${(props) => props.theme.mobile_breakpoint}) {
-    flex: 0;
   }
 `;
