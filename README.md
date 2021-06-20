@@ -8,7 +8,7 @@
 </h1>
 
 <p align="center">
-A website to shorten your links and avail advanced statistics 
+A website to shorten your links
 </p>
 
 Shortly is a fully responsive website where you can shorten any website links and get copied to your clipboard.
