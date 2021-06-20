@@ -11,7 +11,7 @@
 A website to shorten your links and avail advanced statistics 
 </p>
 
-Shortly is a fully responsive website where shorten any link.
+Shortly is a fully responsive website where you can shorten any website links and get copied to your clipboard.
 
 <h2>Features</h2> 
  <ul>
