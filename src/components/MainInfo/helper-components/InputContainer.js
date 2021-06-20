@@ -17,6 +17,6 @@ export const InputContainer = styled.div`
     margin: -100px 0px 15px 0px;
     flex-direction: column;
     align-items: stretch;
-    padding: 0px 20px;
+    padding: 20px;
   }
 `;
